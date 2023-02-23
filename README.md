@@ -1,7 +1,21 @@
 cds_consensus_annotation
 ==============================
 
-This project aims to cluster different cds pieces into different types, using a combination of cd-hit-psi, tbasltx and
+Motivation
+------
+Primal Databases for genome data, such as Genbank, contain mostly low-quality, automatically predicted genome annotation.  
+There are attempts to make the annotation more consistent, such as NCBI's RefSeq database.   
+In practice, these databases still suffer from unreliable, and inconsistent annotations, which makes it harder to use them for
+downstream tasks, such as training machine learning models.  
+  
+Traditionally, the CDS (coding region of a gene) is predicted by alignment to a protein database. 
+In this project, we aim to explore and develop automatic tools, to see if whether instead of protein-genome alignment,
+creating consistent annotation through genome-genome alignment leads to better, more consistent results.
+
+
+Description
+--------
+We cluster different cds pieces into different types, using a combination of cd-hit-psi, tbasltx and
 graph community finding algorithms. The clustered pieces are aligned to a target genome to help annotation.  
   
 The overall goal is to annotate cds regions in the genome based on cds annotations in other genomes, thereby creating a consistent annotation.
