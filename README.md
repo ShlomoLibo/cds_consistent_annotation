@@ -3,7 +3,7 @@ CDS Consensus Annotation
 
 Motivation
 ------
-Primal Databases for genome data, such as Genbank, contain mostly low-quality, automatically predicted genome annotation.  
+Primary Databases for genome data, such as Genbank, contain mostly low-quality, automatically predicted genome annotation.  
 There are attempts to make the annotation more consistent, such as NCBI's RefSeq database.   
 In practice, these databases still suffer from unreliable, and inconsistent annotations, which makes it harder to use them for
 downstream tasks, such as training machine learning models.  
