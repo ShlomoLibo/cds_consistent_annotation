@@ -1,4 +1,4 @@
-cds_consensus_annotation
+CDS Consensus Annotation
 ==============================
 
 Motivation
