@@ -1,0 +1,12 @@
+name: cds_consensus_annotation
+channels:
+  - defaults
+dependencies:
+  - biopython
+  - pip
+  - pip:
+    - gffutils==0.11.1
+    - matplotlib==3.6.2
+    - networkx==3.0
+    - pathlib==1.0.1
+    - pyfaidx==0.7.1
