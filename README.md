@@ -87,14 +87,14 @@ Project Organization
     │
     ├── environment.txt   <- The file for reproducing the analysis environment.
     │ 
-    ├── src                <- Source code for use in this project.
-    │   ├── __init__.py    <- Makes src a Python module
-    │   │
-    │   ├── data           <- Scripts to download or generate data
-    │   │   └── 
-    │   └── visualization  <- Scripts to create exploratory and results oriented visualizations
-    │       └── visualize.py
-    │
+    └── src                <- Source code for use in this project.
+        ├── __init__.py    <- Makes src a Python module
+        │
+        ├── data           <- Scripts to download or generate data
+        │   └── 
+        └── visualization  <- Scripts to create exploratory and results oriented visualizations
+            └── visualize.py
+    
 
 
 --------
